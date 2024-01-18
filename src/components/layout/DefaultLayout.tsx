@@ -1,6 +1,6 @@
 import React, { PropsWithChildren, useState } from "react";
-import Header from "../header";
-import SidebarNav from "../sidenav";
+import Header from "../Header";
+import SidebarNav from "../Sidenav";
 import { Drawer } from "antd";
 
 const DefaultLayout: React.FC<PropsWithChildren> = ({ children }) => {

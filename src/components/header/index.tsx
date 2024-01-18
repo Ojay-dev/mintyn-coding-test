@@ -1,6 +1,6 @@
 import React from "react";
 import { MenuOutlined } from "@ant-design/icons";
-import NotificationIcon from "../icons/notification_icon";
+import NotificationIcon from "../Icons/notification_icon";
 
 type HeaderProps = {
   showDrawer: () => void;

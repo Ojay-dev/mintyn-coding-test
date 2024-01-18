@@ -1,13 +1,13 @@
 import React from "react";
-import OverviewIcon from "../icons/overview_icon";
-import AllPaymentIcon from "../icons/all_payment_icon";
-import ReconciledPaymentIcon from "../icons/reconciled_payment_icon";
-import UnReconciledPaymentIcon from "../icons/unreconciled_payment_icon";
-import ManualSettlement from "../icons/manual_settlement";
-import AllOrdersIcon from "../icons/all_orders_icon";
-import PendingOrdersIcon from "../icons/pending_orders_icon";
-import ReconciledOrdersIcon from "../icons/reconciled_orders_icon";
-import MarchantPaymentIcon from "../icons/merchant_payment_icon";
+import OverviewIcon from "../Icons/overview_icon";
+import AllPaymentIcon from "../Icons/all_payment_icon";
+import ReconciledPaymentIcon from "../Icons/reconciled_payment_icon";
+import UnReconciledPaymentIcon from "../Icons/unreconciled_payment_icon";
+import ManualSettlement from "../Icons/manual_settlement";
+import AllOrdersIcon from "../Icons/all_orders_icon";
+import PendingOrdersIcon from "../Icons/pending_orders_icon";
+import ReconciledOrdersIcon from "../Icons/reconciled_orders_icon";
+import MarchantPaymentIcon from "../Icons/merchant_payment_icon";
 
 const SidebarNav: React.FC = () => {
   return (
