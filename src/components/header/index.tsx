@@ -1,15 +1,20 @@
 import React from "react";
+import { MenuOutlined } from "@ant-design/icons";
 import NotificationIcon from "../icons/notification_icon";
 
-const Header: React.FC = () => {
+type HeaderProps = {
+  showDrawer: () => void;
+};
+
+const Header: React.FC<HeaderProps> = ({ showDrawer }) => {
   return (
     <header className="header">
       <a href="#" className="nav-brand">
         TransMonitor
       </a>
 
-      <div className="flex items-center gap-x-14">
-        <nav className="flex gap-x-9">
+      <div className="flex items-center gap-x-6 sm:gap-x-14">
+        <nav className="hidden gap-x-9 lg:flex">
           <a href="#" className="font-SegoeUI text-sm text-[#647787]">
             Support
           </a>
@@ -27,9 +32,18 @@ const Header: React.FC = () => {
         </span>
 
         <span className="flex items-center gap-x-3">
-          <span className="font-SegoeUI text-sm text-[#647787]">Oluwaleke Ojo</span>
+          <span className="hidden font-SegoeUI text-sm text-[#647787] sm:block">Oluwaleke Ojo</span>
           <img src="/assets/images/avatar.jpeg" alt="Profile image" className="h-9 w-9 rounded-[50%] object-cover" />
         </span>
+
+        <button
+          className="xl:hidden"
+          onClick={() => {
+            showDrawer();
+          }}
+        >
+          <MenuOutlined />
+        </button>
       </div>
     </header>
   );

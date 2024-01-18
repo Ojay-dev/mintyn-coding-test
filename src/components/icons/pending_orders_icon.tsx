@@ -29,8 +29,8 @@ const PendingOrdersIcon: React.FC = () => {
         stroke="currentColor"
       />
       <circle cx="15.5" cy="9.5" r="5" fill="white" stroke="currentColor" />
-      <path d="M16.875 6.75V12.25" stroke="currentColor" stroke-width="0.75" />
-      <path d="M14.125 6.75V12.25" stroke="currentColor" stroke-width="0.75" />
+      <path d="M16.875 6.75V12.25" stroke="currentColor" strokeWidth="0.75" />
+      <path d="M14.125 6.75V12.25" stroke="currentColor" strokeWidth="0.75" />
     </svg>
   );
 };

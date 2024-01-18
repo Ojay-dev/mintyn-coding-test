@@ -11,7 +11,7 @@ import MarchantPaymentIcon from "../icons/merchant_payment_icon";
 
 const SidebarNav: React.FC = () => {
   return (
-    <nav className="fixed top-[60px] h-screen w-[330px] overflow-y-scroll bg-white pt-[33px]">
+    <>
       <button className="my-8 ml-8 rounded-3xl bg-[#27AE60] px-[26px] py-[10px] text-white">GENERATE INVOICE</button>
 
       <div className="mb-8 flex flex-col">
@@ -55,7 +55,7 @@ const SidebarNav: React.FC = () => {
           <MarchantPaymentIcon /> Merchant Profile
         </a>
       </div>
-    </nav>
+    </>
   );
 };
 
